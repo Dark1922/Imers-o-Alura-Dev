@@ -1,0 +1,114 @@
+body {
+    text-aling:center;
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-1-conversor-de-moedas.png');
+    background: linear-gradient(270deg, #b01ac8, #2225c3, #15a8df);
+    background-size: 600% 600%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    -webkit-animation: deg2 20s ease infinite;
+    -moz-animation: deg3 20s ease infinite;
+    animation: deg1 20s ease infinite;
+  }
+  input{
+    text-align: center;
+    border-radius: 11px;
+    border: none;
+    padding: 5px;
+    font-size: 12px;
+    box-shadow: none;
+    margin-top: 5px;
+    -moz-appearance: textfield;
+  }
+  #resp{
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 20px;
+    animation: pr 2s ease infinite;
+  }
+
+  @keyframes pr{
+    0%{
+      color: #b01ac8;
+    }
+    50%{
+      color: #ff0101;
+ 
+    }
+
+    
+    100%{
+      color: #15a8df;
+
+    }
+  }
+  .convert{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: rgba(255, 0, 0, 0.26);
+    border-radius: 30px;
+    transition: all 1s;
+  }
+  .fam{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+      font-size: 50px;
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  label{
+    color:#ffffff
+  }
+  .title-con{
+      font-size: 30px;
+    color: #ffffff;
+    margin-top: 90px;
+  }
+  .click:active{
+      background-color: rgb(252, 4, 239);
+  }
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  #valor{
+    margin-right: 70px;
+    margin-bottom: 10px;
+  }
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+   @-webkit-keyframes deg3 {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes deg2 {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes deg1 {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+}
