@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("http://www.csun.edu/~ata20315////Research/matrix.gif");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+span {
+  color: yellow;
+  font: bolder;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.content {
+  margin-top: 0px;
+  align-content: center;
+  text-align: justify;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+  background-color: darkviolet;
+  position: relative;
+  opacity: 90%;
+  border-radius: 20px;
+}
+
+.secreto {
+  align-content: center;
+  width: 400px;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.secreto img {
+  top: 75px;
+  width: 250px;
+  height: auto;
+  position: relative;
+  border-radius: 50px;
+}
+
+.numeros img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.escolha {
+  text-align: center;
+  margin-left: 15px;
+  width: 100%;
+  height: auto;
+  color: whitesmoke;
+  position: relative;
+}
+
+.btn-jogar {
+  align-content: center;
+  width: auto;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120px;
+  color: wheat;
+  background-color: teal;
+  position: relative;
+  border-radius: 40px;
+  border: 5px solid yellow;
+}
+
+.btn-jogar:hover {
+  background-color: peru;
+  color: whitesmoke;
+  border: 5px solid whitesmoke;
+}
+
+.nome {
+  left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: cornsilk;
+  font-weight: bolder;
+  position: relative;
+}
+
+.input-nome {
+  left: 30px;
+  width: 250px;
+  height: 40px;
+  font-size: 25px;
+  position: relative;
+  font: bolder;
+  background-color: lightyellow;
+}
+
+.btn-iniciar {
+  left: 40px;
+  width: auto;
+  height: 40px;
+  font-size: 25px;
+  font: bolder;
+  color: blue;
+  position: relative;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: goldenrod;
+  border: 1px solid yellow;
+}
+
+.btn-iniciar:hover {
+  background-color: floralwhite;
+  border: 1px solid blue;
+  color: red;
+}
+
+#display {
+  position: relative;
+  margin: 10px;
+}
+
+#display label {
+  position: relative;
+  color: yellow;
+  font-size: 25px;
+}
+
+#display input {
+  position: relative;
+  height: 25px;
+  border: none;
+  color: whitesmoke;
+  font: bolder;
+  font-size: 25px;
+}
+
+.display-nome {
+  width: 150px;
+}
+
+.display-vida {
+  width: 35px;
+  text-align: center;
+}
+
+.label-chance {
+  margin-left: 40px;
+}
+
+.label-vida {
+  margin-left: 35px;
+}
+
+.numeros {
+  padding: 10px;
+  position: relative;
+}
+
+.numeros input {
+  position: relative;
+  top: 30px;
+  margin: 2px;
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  color: blue;
+  font: bolder;
+  border: 2px solid black;
+  background-color: burlywood;
+  border-radius: 70px;
+}
+
+.numeros input:hover {
+  background-color: darkslateblue;
+  color: yellow;
+}
+
+#resultado {
+  font-size: 10px;
+  color: whitesmoke;
+}
+
+.numero-secreto {
+  margin-top: 65px;
+  position: relative;
+  font-size: 200px;
+  font: bolder;
+  color: red;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
